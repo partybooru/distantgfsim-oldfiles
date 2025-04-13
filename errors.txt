@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 102: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    hide jade talking
+    ^
+
+Ren'Py Version: Ren'Py 7.5.3.22090809
+Sun Nov 27 22:22:17 2022

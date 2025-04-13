@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 173, in script
+    "You're never gonna be 100% fine"
+TypeError: a float is required
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 173, in script
+    "You're never gonna be 100% fine"
+  File "C:\Users\benny\Downloads\renpy-7.0.0-sdk.7z\renpy-7.0.0-sdk\renpy\ast.py", line 652, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "C:\Users\benny\Downloads\renpy-7.0.0-sdk.7z\renpy-7.0.0-sdk\renpy\exports.py", line 1188, in say
+    what = what % tag_quoting_dict
+TypeError: a float is required
+
+Windows-8-6.2.9200
+Ren'Py 7.0.0.196
+distant gf simulator 1.0
+Sun Nov 27 20:36:04 2022
